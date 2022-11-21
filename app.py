@@ -23,7 +23,7 @@ def main():
 
     st.write(font_css, unsafe_allow_html=True)
 
-    tabs = st.tabs(('Panorama Image'))
+    tabs = st.tabs(('_'))
 
     with tabs[0]:
         panorama()
@@ -64,7 +64,7 @@ def uploadImages(key):
 
 def panorama():
 
-    st.header("Panorama Image")
+    st.header("Panorama Image Created By Mayur Gadhave Roll No 172")
 
     imgs = uploadImages(0)
 
